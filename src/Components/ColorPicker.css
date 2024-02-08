@@ -1,0 +1,7 @@
+.colorPickerItem{
+    width:30px !important;
+    height: 30px !important;
+    border: solid black 0.1px;
+    border-radius: 100%;
+    margin-left: 1%;
+}

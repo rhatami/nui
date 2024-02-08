@@ -1,0 +1,16 @@
+.NewNoteListFlex{
+    margin-bottom: 3%;
+    padding-bottom: 2% !important;
+    border-bottom: 1px dotted gray;
+    padding: 1%;
+  }
+  
+  .NewNoteListFlex p , .NewListFlex p{
+    font-family: rezvan;
+    font-size: large;
+  }
+  
+  .NewListFlex{
+    margin-right: 7%;
+  }
+  

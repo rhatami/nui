@@ -1,0 +1,14 @@
+.popup-content{
+    position: absolute !important;
+    pointer-events: auto;
+    top:20% !important;
+    left:25% !important;
+    width: 45% !important;
+    height: auto !important;
+    background:none !important;
+  }
+
+  .EditButton{
+    align-self: end;
+  }
+  

@@ -1,0 +1,191 @@
+@import '@radix-ui/colors/black-alpha.css';
+@import '@radix-ui/colors/mauve.css';
+@import '@radix-ui/colors/violet.css';
+
+@font-face {
+  font-family: 'rezvan';
+  font-style: normal;
+  src:url(assets/Fonts/A.Rezvan.ttf) format('truetype'); 
+}
+
+@font-face {
+  font-family: 'mitra';
+  font-style: normal;
+  src:url(assets/Fonts/BMitra.TTF) format('truetype'); 
+}
+
+@font-face {
+  font-family: 'yekan';
+  font-style: normal;
+  src:url(assets/Fonts/BYekan.TTF) format('truetype'); 
+}
+
+.rt-TextAreaChrome{
+  display: none !important;
+}
+
+body , .FormRoot , .FormRoot input, .noteCard , .listCard, textarea {
+  font-family: mitra !important;
+  font-size: large !important;
+}
+
+.ListRoot input , .ListRoot button{
+  margin-top: 3%;
+}
+
+.EditNoteRoot button{
+  max-width: 50%;
+  margin-right: 25%;
+}
+
+.submitButton {
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  height: 35px;
+  width: 50%;
+  color: var(--violet-11);
+  box-shadow: 0 2px 10px var(--black-a7);
+}
+
+.submitButton:hover {
+  background-color: var(--mauve-3);
+}
+.submitButton:focus {
+  box-shadow: 0 0 0 2px black;
+}
+
+.ListRoot input{
+  padding:1%;
+  padding-right: 3%;
+}
+
+.ListRoot button{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.ListTitleRow label{
+  margin-left: 2%;
+  align-self: center;
+}
+
+.ListTitleRow input{
+  width: 62%;
+}
+
+.ListItemInput{
+  width: 69%;
+}
+
+.AddItemFlex{
+  margin-bottom: 5%;
+}
+
+.AddItemFlex button{
+  margin-right: 10%;
+}
+
+.deleteListButton , .ListRemoveButton{
+  background-color: #fd6262 !important;
+  background: #fd6262 !important;
+}
+
+.ListRemoveButton {
+  width: 25px !important;
+  height: 25px !important;
+  margin: 0 !important;
+  margin-left: 3% !important;
+  align-self: center;
+}
+
+.ListItemText{
+  align-self: center;
+  margin-bottom: 2%;
+  margin-top: 0 !important;
+  width:58%;
+}
+
+.ListArrowButtons{
+  margin-right: 7%;
+}
+
+.ListArrowButtons button{
+  margin-right: 10%;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+textarea{
+  line-height: 135% !important;
+}
+
+.Heading , button{
+  font-family: rezvan !important;
+  font-size: large !important;
+  color: black !important; 
+}
+
+.nav{
+  border-bottom: 1px solid gray !important;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.SiteTitle{
+  font-family: yekan !important;
+  font-size: x-large !important;
+  text-align: center !important;
+}
+
+.SearchInput{
+  font-family: mitra !important;
+  font-size: large !important;
+  text-align: center !important;
+}
+
+.noteCard , .listCard {
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  margin-bottom: 4%;
+}
+
+.noteCardFlex , .listCardFlex{
+  height: 100%;
+}
+
+.NoteCardTextArea{
+  color:black;
+  min-height: 120px;
+}
+
+.FormRoot input{
+  border: solid black 0.5px;
+}
+
+.IconButton {
+  font-family: inherit;
+  border:none !important;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  box-shadow: 0 2px 10px var(--black-a7);
+}
+.IconButton:hover {
+  border:none !important;
+  background-color: var(--violet-3);
+}
+
+.IconButton:focus {
+  border:none !important;
+  box-shadow: 0 0 0 2px black;
+}
