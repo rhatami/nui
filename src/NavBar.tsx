@@ -24,7 +24,7 @@ const NavBar = () => {
             />
           </TextField.Root>
           <Avatar
-            src="/profile.jpg"
+            src="/nui/profile.jpg"
             fallback="U"
             size="3"
             radius="full"

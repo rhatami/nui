@@ -14,7 +14,6 @@ import { produce } from "immer";
 
 const EditList = ({ List }: { List: List }) => {
   const [list, setList] = useState(List.list);
-  const [listChange, setListChange] = useState(false);
   const [backColor, setBackColor] = useState<string>(List.backGroundColor);
 
   const defaultAddItemText = "افزودن آیتم جدید";
@@ -97,7 +96,6 @@ const EditList = ({ List }: { List: List }) => {
               className="IconButton ListRemoveButton"
               color="red"
               onClick={() => {
-                setListChange(!listChange);
                 setList(deleteItem(list, index));
               }}
             >
@@ -121,7 +119,6 @@ const EditList = ({ List }: { List: List }) => {
                 key={"ArrowUp" + index}
                 className="IconButton"
                 onClick={() => {
-                  setListChange(!listChange);
                   setList(swapIndex(list, index, index - 1));
                 }}
               >
@@ -132,7 +129,6 @@ const EditList = ({ List }: { List: List }) => {
                 key={"ArrowDown" + index}
                 className="IconButton"
                 onClick={() => {
-                  setListChange(!listChange);
                   setList(swapIndex(list, index, index + 1));
                 }}
               >

@@ -25,7 +25,7 @@ function App() {
 0100020003004 مشتری 10 ستاره
 0200300400005  شرکت نمونه
  `,
-            backGroundColor: "Red",
+            backGroundColor: "Orange",
           }}
           key={10}
         />
@@ -52,7 +52,7 @@ function App() {
 سند 179 تاریخ 12 بهمن - فاکتور می خواهد
 سند 18 تاریخ 21 بهمن - فرم قرض
 سند 19 تاریخ 25 بهمن - تاییدیه شرکت`,
-            backGroundColor: "Gray",
+            backGroundColor: "Purple",
           }}
           key={30}
         />
