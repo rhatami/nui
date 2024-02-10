@@ -104,7 +104,7 @@ const EditList = ({ List }: { List: List }) => {
             <input
               key={"ListItemText" + index}
               className="ListItemText"
-              defaultValue={item}
+              value={item}
               onChange={(e) => {
                 setList(editItem(list, index, e.target.value));
               }}
